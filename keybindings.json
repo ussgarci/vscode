@@ -1,4 +1,5 @@
 //https://stackoverflow.com/questions/36328029/is-there-a-hotkey-to-switch-between-split-window-panes
+//https://stackoverflow.com/questions/44018175/hotkey-to-move-a-tab-from-one-of-two-split-editors-to-another
 [
     {
         "key": "ctrl+h",
@@ -15,5 +16,13 @@
     {
         "key": "ctrl+j",
         "command": "workbench.action.navigateDown"
+    },
+    {
+        "key": "ctrl+.",
+        "command": "workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+,",
+        "command": "workbench.action.moveEditorToPreviousGroup"
     }
 ]
